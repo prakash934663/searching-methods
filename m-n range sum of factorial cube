@@ -1,0 +1,11 @@
+m=int(input())
+n=int(input())
+total=0
+if (m>n):
+  print(0)
+else :
+  factorial=1
+  for i in range(m,n+1) :
+    factorial*=i
+    total+=factorial
+    print(total)
